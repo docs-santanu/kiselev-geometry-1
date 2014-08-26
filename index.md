@@ -7,7 +7,7 @@ layout: "default"
 ---
 
 
-##{{ page. title }}
+##{{ page.title }}
 
 **Author: {{ page.author }}**
 
