@@ -1,10 +1,13 @@
 ---
+
 author: "Santanu Chakrabarti"
 title: "Solutions to Kiselev's Geometry (Book I)"
 layout: "default"
+
 ---
 
-## {{ page. title }}
+
+##{{ page. title }}
 
 **Author: {{ page.author }}**
 
