@@ -2,8 +2,6 @@
 layout: default
 ---
 
-##Chapter: {{ page.chapter }}
-
-Solutions to the **selected** exercises from chapter _{{ page.chapter }}_ are explained below.
+{% include chapter_header.md %}
 
 {{ content }}
