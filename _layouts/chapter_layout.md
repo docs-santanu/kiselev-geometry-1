@@ -1,5 +1,3 @@
----
----
 
 ##Chapter: {{ page.chapter }}
 

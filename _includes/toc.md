@@ -1,4 +1,2 @@
----
----
 
-1. [Introduction]({{ site.url }}/chapters/introduction/)
+1. [Introduction]({{ site.url }}/kiselev-geometry-1/chapters/introduction/)
