@@ -1,3 +1,6 @@
+---
+layout: default
+---
 
 ##Chapter: {{ page.chapter }}
 
