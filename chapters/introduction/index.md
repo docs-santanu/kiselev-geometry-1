@@ -5,4 +5,10 @@ layout: default
 
 {% include chapter_header.md %}
 
-_Exercises should go here_
+{% for post in site.categories.introduction %}
+
+###{{ post.title }}
+
+{{ post.content }}
+
+{% endfor %}
