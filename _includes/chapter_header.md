@@ -1,10 +1,10 @@
 {% if page.previous == "" %}
-[**Previous**] | 
+{% assign prev_link = "<<**Previous** | " %}
 {% else %}
 {% assign prev_url = page.previous | append:"/" %}
-[**Previous**]({{ site.url }}/{{ prev_url }}) | 
+{% assign prev_link = "<<[**Previous**](" | append:site.url | append:"/" | append:prev_url | append:") | " %}
 {% endif %}
-[**Home**]({{ site.url }}/kiselev-geometry-1/)
+{{ prev_link }} [**Home**]({{ site.url }}/kiselev-geometry-1/)
 
 ##Chapter: {{ page.chapter }}
 
