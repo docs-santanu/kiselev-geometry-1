@@ -6,6 +6,8 @@ next: ""
 top: "kiselev-geometry-1"
 ---
 
+{% include chapter_navigation.md %}
+
 {% include chapter_header.md %}
 
 {% for post in site.categories.introduction %}
@@ -15,3 +17,5 @@ top: "kiselev-geometry-1"
 {{ post.content }}
 
 {% endfor %}
+
+{% include chapter_navigation.md %}
