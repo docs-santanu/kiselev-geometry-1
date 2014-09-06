@@ -1,4 +1,6 @@
 markdown: kramdown
 highlighter: pygments
 relative_permalinks: false
-permalink: /news/:year/:month/:day/:title/
+permalink: none
+site_author: "Santanu Chakrabarti"
+site_title: "Solutions to Kiselev's Geometry (Book I)"
