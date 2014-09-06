@@ -1,3 +1,4 @@
+<div style="align:right">####[Home]({{ site.url }}/kiselev-geometry-1/)</div>
 
 ##Chapter: {{ page.chapter }}
 
